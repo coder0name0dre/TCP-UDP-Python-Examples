@@ -17,19 +17,22 @@ This repository contains tiny Python exercises that demonstrate how TCP and UDP 
 
 ### 1. Clone the Repository
 
-```git clone https://github.com/dre86dre/TCP-UDP-Python-Examples.git```
+```git clone https://github.com/coder0name0dre/TCP-UDP-Python-Examples.git```
 
 ### 2. Run the TCP Example
 
 In one terminal, start the server:
 
-```cd tcp_example```
-
-```python tcp_server.py```
+```
+cd tcp_example
+python tcp_server.py
+```
 
 In another terminal, run the client:
 
-```python tcp_client.py```
+```
+python tcp_client.py
+```
 
 You should see:
 
@@ -44,13 +47,16 @@ Client side → ```Server says: Hello from TCP server!```
 
 In one terminal, start the server:
 
-```cd udp_example```
-
-```python udp_server.py```
+```
+cd udp_example
+python udp_server.py
+```
 
 In another terminal, run the client:
 
-```python udp_client.py```
+```
+python udp_client.py
+```
 
 You should see:
 
@@ -83,5 +89,5 @@ No external dependencies are needed.
 ---
 
 ## 📝 License
-This project is licensed under the MIT License.
+MIT License. See [LICENSE](https://github.com/coder0name0dre/TCP-UDP-Python-Examples/blob/main/LICENSE) for details.
 
